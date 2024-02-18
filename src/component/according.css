@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(105, 36, 170);
+}
+.main{
+    display: flex;
+    width: 650px;
+    height: fit-content;
+background-color: white;
+padding: 40px;
+margin: 20px;
+}
+.title{
+    height: 100%;
+    width: 33%;
+    font-size: x-large;
+
+}
+.content{
+    width: 60%;
+}
+.box{
+    height: 100%;
+    width:100%;
+    padding-left: 50px;
+}
+.colm{
+    box-shadow: 5px 5px 5px 5px #8888;
+    width: 100%;
+    margin-bottom:20px ;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Pulsmines{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 0;
+    color: red;
+    transition: 0.3s;
+}
+.Pulsmines:hover{
+    background-color: red;
+    color: gainsboro
+}
